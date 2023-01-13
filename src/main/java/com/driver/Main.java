@@ -8,14 +8,4 @@ public class Main {
 
     }
   }
-class A{
-    String meth(){
-        return "right output";
-    }
-}
-class B extends A{
-    @Override
-    String meth() {
-        return "Method is overridden in Extendend class B";
-    }
-}
+
